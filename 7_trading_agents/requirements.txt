@@ -1,0 +1,40 @@
+# Trading Agents System Requirements
+
+# Core Agent Framework
+openai==1.3.0
+agents>=1.0.0  # OpenAI SDK agents
+
+# Async & WebSocket
+websockets>=11.0
+asyncio-contextmanager>=1.0.0
+
+# Financial Data
+yfinance>=0.2.32
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Sentiment Analysis
+praw>=7.7.0  # Reddit API
+textblob>=0.17.0
+transformers>=4.30.0  # For advanced NLP
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Interactive Brokers
+ibapi>=9.81.1  # IB API (install from IB separately)
+
+# Data Processing & Export
+openpyxl>=3.1.0  # Excel generation
+xlsxwriter>=3.1.2  # Advanced Excel
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Logging & Monitoring
+python-json-logger>=2.0.0
+
+# Development
+jupyter>=1.0.0
+ipython>=8.0.0
+jupyter-client>=8.0.0
